@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI";
+	color: #555;
+}
+
+/*** Common ***/
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/*** Section ***/
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+section input {
+	min-width: 300px;
+	display: block;
+	margin: 20px;
+	padding: 15px 5px;
+	font-size: 18px;
+	font-weight: 400;
+	border-width: 0 0 2px 0;
+	border-color: #b9b9b9;
+	outline: none;
+	transition: border-color 0.2s;
+}
+
+section input:focus {
+	border-color: #555;
+}
+
+section .submit-btn {
+	padding: 12px 5px;
+	border-width: 0;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #ff9980;
+	color: #fff;
+	outline: none;
+	transition: background-color 0.2s;
+}
+
+section .submit-btn:hover {
+	background-color: #d4806b;
+}
+
+section p a {
+	font-weight: 500;
+}
+
+section p a:hover {
+	text-decoration: underline;
+}
